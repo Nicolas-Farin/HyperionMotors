@@ -1,0 +1,229 @@
+.animar {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+    transition-delay: 0.2s;
+    will-change: opacity, transform;
+}
+
+.animar.mostrar {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+* {
+    transition: 0.3s;
+}
+
+.caixa {
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+}
+
+.container {
+    width: 85%;
+    max-width: 1200px;
+    color: white;
+    background: #191D21;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 50px;
+}
+
+.contatoIMG {
+    width: 440px;
+    max-width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.escritas {
+    width: 420px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.escritas h1 {
+    font-weight: 500;
+    line-height: 1.2;
+    white-space: nowrap;
+}
+
+.escritas p {
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.escritas hr {
+    border: rgb(111, 111, 111) 1px solid;
+    width: 80px;
+}
+
+/* 🔘 BOTÃO */
+.btnSimular {
+    width: 33%;
+    max-width: 380px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* centraliza o conteúdo */
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 12px;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    transition: 0.5s ease-in-out;
+    text-wrap: nowrap;
+}
+
+/* texto do botão */
+.btnSimular p {
+    margin: 0;
+}
+
+/* seta */
+.seta {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.seta img {
+    width: 15px;
+    height: 15px;
+    transform: rotate(-90deg);
+}
+
+/* hover */
+.btnSimular:hover {
+    background: rgb(70, 70, 70);
+    justify-content: space-between;
+    width: 80%;
+    border: solid rgb(209, 209, 209) 1px;
+}
+
+.btnSimular:hover .seta {
+    opacity: 1;
+}
+
+/* variações */
+.smlUm {
+    background: rgba(255, 255, 255, 0);
+    border: solid rgb(88, 88, 88) 0px;
+    border-top: solid rgb(88, 88, 88) 1px;
+    border-bottom: solid rgb(88, 88, 88) 1px;
+}
+
+.smlDois {
+    width: 50%;
+    border: solid rgb(88, 88, 88) 0px;
+    border-top: solid rgb(167, 0, 0) 1px;
+    border-bottom: solid rgb(167, 0, 0) 1px;
+}
+
+.smlDois:hover {
+    background: rgba(86, 0, 0, 0.616);
+    transform: translateY(-2px);
+    border: solid rgb(204, 0, 0) 1px;
+}
+
+/* 📱 RESPONSIVO */
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px;
+    }
+
+    .contatoIMG {
+        width: 60vw;
+        height: 40vh;
+        max-width: 350px;
+    }
+
+    .escritas {
+        align-items: center;
+    }
+}
+
+/* 🔴 ESCONDE A SETA DE VERDADE */
+@media (max-width: 900px) {
+    .btnSimular .seta {
+        display: none;
+    }
+
+    .btnSimular{
+        justify-content: center;
+        padding: 0 !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 30px 20px;
+        gap: 30px;
+    }
+
+    .contatoIMG {
+        width: 100%;
+    }
+
+    .escritas h1 {
+        font-size: 24px;
+    }
+
+    .escritas p {
+        font-size: 16px;
+    }
+
+    .escritas a {
+        height: 42px;
+    }
+}
+
+@media (max-width: 480px) {
+    .btnSimular {
+        width: 70% !important;
+        margin: 0 auto;
+        text-wrap: nowrap;
+    }
+
+    .container {
+        padding: 25px 15px;
+        border-radius: 15px;
+    }
+
+    .escritas {
+        gap: 15px;
+    }
+
+    .escritas h1 {
+        font-size: 18px;
+    }
+
+    .escritas p {
+        font-size: 16px;
+    }
+
+    .escritas a {
+        height: 40px;
+        font-size: 14px;
+    }
+}

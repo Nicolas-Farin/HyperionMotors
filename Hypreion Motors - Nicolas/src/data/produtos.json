@@ -1,0 +1,830 @@
+[
+  {
+    "id": 1,
+    "nome": "Rolls-Royce Phantom",
+    "marca": "Rolls-Royce",
+    "logo": "/Logos/LOGO_RollsRoyce.png",
+    "imagens": [
+      "/IMGs_detalhesCarros/Rolls-Royce Phantom/WhatsApp Image 2026-03-26 at 07.22.46.jpeg",
+      "/IMGs_detalhesCarros/Rolls-Royce Phantom/rolls-royce-phantom-23.webp",
+      "/IMGs_detalhesCarros/Rolls-Royce Phantom/WhatsApp Image 2026-03-26 at 07.20.11.jpeg",
+      "/IMGs_detalhesCarros/Rolls-Royce Phantom/WhatsApp Image 2026-03-26 at 07.21.09.jpeg",
+      "/IMGs_detalhesCarros/Rolls-Royce Phantom/WhatsApp Image 2026-03-26 at 07.21.42.jpeg"
+    ],
+    "preco": 6200000,
+    "ano": 2024,
+    "quilometragem": 3200,
+    "combustivel": "Gasolina",
+    "cambio": "Automático",
+    "potencia": "563 cv",
+    "torque": "91,8 kgfm",
+    "zeroA100": "5.3s",
+    "velocidadeMax": "250 km/h",
+    "consumo": "6 km/l",
+    "tracao": "Traseira",
+    "bateriaOuTanque": "100L",
+    "marchas": "8 marchas",
+    "descricao": "O Rolls-Royce Phantom representa o mais alto nível de luxo e exclusividade no universo automotivo. Projetado com atenção extrema aos detalhes, cada elemento do veículo é cuidadosamente elaborado à mão, desde os materiais nobres do interior até o refinamento acústico que garante um silêncio absoluto ao rodar. Equipado com um poderoso motor V12, o Phantom oferece uma condução incrivelmente suave, combinando desempenho elegante com conforto incomparável. Mais do que um carro, ele é uma verdadeira obra de arte sobre rodas, destinada a quem busca sofisticação sem limites.",
+    "destaque": {
+      "titulo": "Luxo absoluto",
+      "conteudo": "Interior feito à mão com materiais nobres e silêncio total ao dirigir."
+    },
+    "especificacoesDetalhadas": [
+      {
+        "titulo": "Design Atemporal",
+        "descricao": "Linhas clássicas e imponentes com acabamento artesanal, combinando elegância atemporal com presença marcante nas ruas."
+      },
+      {
+        "titulo": "Tecnologia Bespoke",
+        "descricao": "Sistema Bespoke com interface personalizada, painel digital refinado e recursos avançados de assistência ao motorista."
+      },
+      {
+        "titulo": "Motor V12 Biturbo",
+        "descricao": "Motor V12 biturbo extremamente silencioso, projetado para entregar potência de forma suave e praticamente imperceptível."
+      },
+      {
+        "titulo": "Conforto Inigualável",
+        "descricao": "Interior com isolamento acústico avançado, bancos em couro premium e suspensão que elimina imperfeições da estrada."
+      }
+    ],
+    "destaquesSpecs": [
+      "potencia",
+      "velocidadeMax",
+      "zeroA100"
+    ],
+    "motorDestaque": {
+      "titulo": "Motor V12 Biturbo",
+      "descricao": "Entrega potência suave com silêncio absoluto e refinamento extremo"
+    },
+    "descricaoSpecs": {
+      "potencia": "Potência máxima entregue pelo motor V12, garantindo desempenho elevado com extrema suavidade na condução.",
+      "torque": "Força máxima do motor, responsável por arrancadas suaves e acelerações consistentes mesmo em baixas rotações.",
+      "zeroA100": "Tempo necessário para acelerar de 0 a 100 km/h, demonstrando a capacidade de resposta do veículo.",
+      "velocidadeMax": "Velocidade máxima limitada eletronicamente para manter segurança e estabilidade em altas velocidades.",
+      "consumo": "Média de consumo de combustível, refletindo a eficiência do motor considerando seu porte e desempenho.",
+      "tracao": "Tipo de tração do veículo, indicando quais rodas recebem a força do motor.",
+      "bateriaOuTanque": "Capacidade total do tanque de combustível, permitindo maior autonomia em viagens longas.",
+      "marchas": "Quantidade de marchas do câmbio automático, proporcionando trocas suaves e melhor aproveitamento do motor."
+    },
+    "modelo3D": "https://sketchfab.com/models/1923bdcbc32f442e97dd49201aa2c928/embed?autostart=1&transparent=1"
+  },
+  {
+    "id": 2,
+    "nome": "Ferrari SF90 Stradale",
+    "marca": "Ferrari",
+    "logo": "/Logos/LOGO_Ferrari.png",
+    "imagens": [
+      "/IMGs_detalhesCarros/Ferrari SF90/WhatsApp Image 2026-03-26 at 07.33.48.jpeg",
+      "/IMGs_detalhesCarros/Ferrari SF90/Ferrari-SF90-Stradale_interior.webp",
+      "/IMGs_detalhesCarros/Ferrari SF90/WhatsApp Image 2026-03-26 at 07.32.57.jpeg",
+      "/IMGs_detalhesCarros/Ferrari SF90/Imagem_interior.webp",
+      "/IMGs_detalhesCarros/Ferrari SF90/WhatsApp Image 2026-03-26 at 07.33.23.jpeg"
+    ],
+    "preco": 7500000,
+    "ano": 2023,
+    "quilometragem": 1800,
+    "combustivel": "Híbrido",
+    "cambio": "Automático",
+    "potencia": "1000 cv",
+    "torque": "81,6 kgfm",
+    "zeroA100": "2.5s",
+    "velocidadeMax": "340 km/h",
+    "consumo": "15 km/l",
+    "tracao": "Integral",
+    "bateriaOuTanque": "Bateria + tanque",
+    "marchas": "8 marchas",
+    "descricao": "A Ferrari SF90 Stradale é uma verdadeira revolução tecnológica no mundo dos supercarros. Inspirada diretamente na Fórmula 1, ela combina um motor V8 biturbo com três motores elétricos, entregando uma potência impressionante e uma aceleração brutal. Seu design aerodinâmico não é apenas visualmente impactante, mas também funcional, garantindo máxima eficiência em altas velocidades. O interior é focado no motorista, oferecendo uma experiência imersiva e esportiva. Este modelo representa o futuro da Ferrari, unindo inovação, performance e eletrificação.",
+    "destaque": {
+      "titulo": "Tecnologia F1",
+      "conteudo": "Sistema híbrido inspirado diretamente na Fórmula 1."
+    },
+    "especificacoesDetalhadas": [
+      {
+        "titulo": "Design Aerodinâmico Extremo",
+        "descricao": "Visual aerodinâmico inspirado na Fórmula 1, com linhas agressivas e foco total em performance e eficiência."
+      },
+      {
+        "titulo": "Tecnologia de Fórmula 1",
+        "descricao": "Sistema híbrido de última geração com controle eletrônico avançado e interface totalmente digital voltada ao piloto."
+      },
+      {
+        "titulo": "Motor Híbrido de 1000cv",
+        "descricao": "Combinação de motor V8 biturbo com três motores elétricos, entregando potência extrema e resposta instantânea."
+      },
+      {
+        "titulo": "Conforto Esportivo Premium",
+        "descricao": "Cockpit focado no motorista, com acabamento esportivo e ergonomia pensada para altas velocidades."
+      }
+    ],
+    "destaquesSpecs": [
+      "potencia",
+      "zeroA100",
+      "tracao"
+    ],
+    "motorDestaque": {
+      "titulo": "Motor Híbrido Plug-in",
+      "descricao": "Combina motor V8 com três elétricos para desempenho de Fórmula 1"
+    },
+    "descricaoSpecs": {
+      "potencia": "Potência máxima combinada do sistema híbrido, entregando desempenho extremo inspirado na Fórmula 1.",
+      "torque": "Força instantânea gerada pelos motores elétricos somados ao V8 biturbo.",
+      "zeroA100": "Tempo de aceleração extremamente baixo, refletindo sua proposta de hipercarro.",
+      "velocidadeMax": "Velocidade máxima elevada com foco em aerodinâmica e performance.",
+      "consumo": "Consumo otimizado graças à tecnologia híbrida de alta eficiência.",
+      "tracao": "Tração integral que distribui a força de forma inteligente entre os eixos.",
+      "bateriaOuTanque": "Sistema híbrido que combina bateria elétrica com tanque de combustível.",
+      "marchas": "Câmbio automatizado de dupla embreagem com trocas extremamente rápidas."
+    },
+    "modelo3D": "https://sketchfab.com/models/833c5e9fb6f945cc82450fffbb96e77b/embed?autostart=1&transparent=1"
+  },
+  {
+    "id": 3,
+    "nome": "Lamborghini Urus",
+    "marca": "Lamborghini",
+    "logo": "/Logos/LOGO_Lamborghini.png",
+    "imagens": [
+      "/IMGs_detalhesCarros/lamborghini urus/lamborghini-urus-performante-.webp",
+      "/IMGs_detalhesCarros/lamborghini urus/Lamborghini Urus interior marrom frente.jpg",
+      "/IMGs_detalhesCarros/lamborghini urus/lamborghini urus.webp",
+      "/IMGs_detalhesCarros/lamborghini urus/Lamborghini Urus interior preto.jpg",
+      "/IMGs_detalhesCarros/lamborghini urus/Lamborghini-Urus-5.jpg"
+    ],
+    "preco": 6800000,
+    "ano": 2022,
+    "quilometragem": 4500,
+    "combustivel": "Gasolina",
+    "cambio": "Automático",
+    "potencia": "770 cv",
+    "torque": "73,4 kgfm",
+    "zeroA100": "2.8s",
+    "velocidadeMax": "350 km/h",
+    "consumo": "5 km/l",
+    "tracao": "Integral",
+    "bateriaOuTanque": "90L",
+    "marchas": "7 marchas",
+    "descricao": "O Lamborghini Aventador é um dos superesportivos mais icônicos já produzidos, combinando design agressivo com um desempenho de tirar o fôlego. Equipado com um motor V12 naturalmente aspirado, ele entrega uma experiência visceral, com um som inconfundível e uma resposta imediata ao acelerador. Seu visual futurista e angular chama atenção por onde passa, enquanto sua engenharia garante estabilidade e precisão mesmo em altas velocidades. É um carro feito para emocionar, tanto ao dirigir quanto ao admirar.",
+    "destaque": {
+      "titulo": "Motor V12",
+      "conteudo": "Som e desempenho inconfundíveis."
+    },
+    "especificacoesDetalhadas": [
+      {
+        "titulo": "Design Futurista e Agressivo",
+        "descricao": "Estilo futurista com linhas agressivas e aerodinâmica marcante, típico da identidade Lamborghini."
+      },
+      {
+        "titulo": "Tecnologia de Pista",
+        "descricao": "Sistemas avançados de controle de tração e estabilidade, garantindo performance máxima em qualquer situação."
+      },
+      {
+        "titulo": "Motor V12 Aspirado",
+        "descricao": "Motor V12 aspirado de alta rotação, oferecendo potência brutal e um dos sons mais icônicos do mundo automotivo."
+      },
+      {
+        "titulo": "Conforto Esportivo Imersivo",
+        "descricao": "Interior esportivo com foco na condução, utilizando materiais premium e acabamento de alta qualidade."
+      }
+    ],
+    "destaquesSpecs": [
+      "potencia",
+      "velocidadeMax",
+      "torque"
+    ],
+    "motorDestaque": {
+      "titulo": "Motor V12 Aspirado",
+      "descricao": "Potência bruta com resposta imediata e som inconfundível"
+    },
+    "descricaoSpecs": {
+      "potencia": "Potência máxima do motor V8 biturbo, garantindo desempenho elevado para um SUV.",
+      "torque": "Força abundante disponível em baixas rotações, proporcionando respostas rápidas.",
+      "zeroA100": "Tempo de aceleração surpreendente para um veículo de grande porte.",
+      "velocidadeMax": "Velocidade máxima acima da média da categoria de SUVs.",
+      "consumo": "Consumo elevado, refletindo o foco em performance esportiva.",
+      "tracao": "Tração integral que garante estabilidade em diferentes tipos de terreno.",
+      "bateriaOuTanque": "Tanque de combustível com boa capacidade para uso urbano e viagens.",
+      "marchas": "Câmbio automático com trocas rápidas e eficientes."
+    },
+    "modelo3D": "https://sketchfab.com/models/1464d6204ff24eeea5d788c7e8aa9100/embed?autostart=1&transparent=1"
+  },
+  {
+    "id": 4,
+    "nome": "Porsche 911 Turbo S",
+    "marca": "Porsche",
+    "logo": "/Logos/LOGO_Porsche.png",
+    "imagens": [
+      "/IMGs_detalhesCarros/Porsche 911 Turbo S/WhatsApp Image 2026-03-26 at 07.25.04.jpeg",
+      "/IMGs_detalhesCarros/Porsche 911 Turbo S/WhatsApp Image 2026-03-26 at 07.29.14.jpeg",
+      "/IMGs_detalhesCarros/Porsche 911 Turbo S/WhatsApp Image 2026-03-26 at 07.26.41.jpeg",
+      "/IMGs_detalhesCarros/Porsche 911 Turbo S/porsche-911-turbo-s-2024-2.jpeg",
+      "/IMGs_detalhesCarros/Porsche 911 Turbo S/WhatsApp Image 2026-03-26 at 07.25.53.jpeg"
+    ],
+    "preco": 2450000,
+    "ano": 2023,
+    "quilometragem": 5700,
+    "combustivel": "Gasolina",
+    "cambio": "Automático",
+    "potencia": "650 cv",
+    "torque": "81,6 kgfm",
+    "zeroA100": "2.7s",
+    "velocidadeMax": "330 km/h",
+    "consumo": "9 km/l",
+    "tracao": "Integral",
+    "bateriaOuTanque": "67L",
+    "marchas": "8 marchas",
+    "descricao": "O Porsche 911 Turbo S é um dos esportivos mais completos e respeitados do mundo. Ele combina desempenho extremo com usabilidade no dia a dia, algo raro no segmento. Seu motor biturbo oferece aceleração impressionante, enquanto o sistema de tração integral garante controle absoluto em qualquer condição. O design mantém a tradição da Porsche, com linhas elegantes e atemporais. Por dentro, o acabamento premium e a tecnologia avançada proporcionam conforto e sofisticação, tornando cada viagem uma experiência única.",
+    "destaque": {
+      "titulo": "Equilíbrio perfeito",
+      "conteudo": "Performance extrema com conforto diário."
+    },
+    "especificacoesDetalhadas": [
+      {
+        "titulo": "Design Clássico Modernizado",
+        "descricao": "Design icônico que combina tradição e modernidade, com linhas elegantes e aerodinâmica refinada."
+      },
+      {
+        "titulo": "Tecnologia de Precisão Alemã",
+        "descricao": "Sistema de suspensão adaptativa e recursos inteligentes que garantem estabilidade e segurança."
+      },
+      {
+        "titulo": "Motor Boxer Biturbo",
+        "descricao": "Motor boxer biturbo com resposta rápida e excelente eficiência, ideal para uso esportivo e diário."
+      },
+      {
+        "titulo": "Conforto para o Dia a Dia  ",
+        "descricao": "Interior sofisticado com acabamento premium e excelente isolamento acústico para o dia a dia."
+      }
+    ],
+    "destaquesSpecs": [
+      "zeroA100",
+      "tracao",
+      "potencia"
+    ],
+    "motorDestaque": {
+      "titulo": "Motor Biturbo Boxer",
+      "descricao": "Equilíbrio perfeito entre potência, eficiência e dirigibilidade"
+    },
+    "descricaoSpecs": {
+      "potencia": "Potência máxima do motor boxer biturbo, combinando eficiência e alto desempenho.",
+      "torque": "Força consistente que garante acelerações rápidas e contínuas.",
+      "zeroA100": "Tempo de aceleração extremamente reduzido, com excelente controle.",
+      "velocidadeMax": "Velocidade máxima elevada com estabilidade característica da Porsche.",
+      "consumo": "Consumo equilibrado para um esportivo de alta performance.",
+      "tracao": "Tração integral que proporciona máxima aderência e segurança.",
+      "bateriaOuTanque": "Tanque de combustível com capacidade adequada para uso diário e esportivo.",
+      "marchas": "Câmbio PDK de dupla embreagem com trocas rápidas e precisas."
+    },
+    "modelo3D": "https://sketchfab.com/models/b2a0382d5efe40129d1e8e1e1dcb5126/embed?autostart=1&transparent=1"
+  },
+  {
+    "id": 5,
+    "nome": "Tesla Model S Plaid",
+    "marca": "Tesla",
+    "logo": "/Logos/LOGO_Tesla.png",
+    "imagens": [
+      "/IMGs_detalhesCarros/Tesla Model S Plaid/OYR7EECCLZIPNJHLAFJRJLWQNY.jpg",
+      "/IMGs_detalhesCarros/Tesla Model S Plaid/tesla-model-s-interior.jpg",
+      "/IMGs_detalhesCarros/Tesla Model S Plaid/Tesla-Model-S_GettyImages.webp",
+      "/IMGs_detalhesCarros/Tesla Model S Plaid/Tesla-Model-S-2021-2.webp",
+      "/IMGs_detalhesCarros/Tesla Model S Plaid/tesla-model-s-1.webp"
+    ],
+    "preco": 3200000,
+    "ano": 2024,
+    "quilometragem": 2100,
+    "combustivel": "Elétrico",
+    "cambio": "Automático",
+    "potencia": "1020 cv",
+    "torque": "142 kgfm",
+    "zeroA100": "2.1s",
+    "velocidadeMax": "322 km/h",
+    "consumo": "600 km autonomia",
+    "tracao": "Integral",
+    "bateriaOuTanque": "100 kWh",
+    "marchas": "1 marcha",
+    "descricao": "O Tesla Model S Plaid redefine o conceito de performance no segmento elétrico. Com três motores elétricos, ele entrega uma aceleração impressionante que rivaliza com os supercarros mais rápidos do mundo. Além da velocidade, oferece uma experiência tecnológica avançada, com sistema de direção autônoma e uma interface totalmente digital. O interior minimalista e silencioso reforça a sensação de modernidade e conforto. É a perfeita união entre inovação, sustentabilidade e desempenho extremo.",
+    "destaque": {
+      "titulo": "Velocidade absurda",
+      "conteudo": "0-100 km/h mais rápido que supercarros."
+    },
+    "especificacoesDetalhadas": [
+      {
+        "titulo": "Design Minimalista Futurista",
+        "descricao": "Visual minimalista e moderno, com foco em eficiência aerodinâmica e elegância."
+      },
+      {
+        "titulo": "Tecnologia Autônoma Avançada",
+        "descricao": "Sistema avançado de piloto automático, interface digital completa e atualizações remotas constantes."
+      },
+      {
+        "titulo": "Motor Tri-Motor Elétrico",
+        "descricao": "Três motores elétricos que entregam aceleração instantânea e desempenho superior aos supercarros tradicionais."
+      },
+      {
+        "titulo": "Conforto Silencioso Premium",
+        "descricao": "Interior silencioso, espaçoso e totalmente digital, proporcionando uma experiência futurista."
+      }
+    ],
+    "destaquesSpecs": [
+      "zeroA100",
+      "potencia",
+      "consumo"
+    ],
+    "motorDestaque": {
+      "titulo": "Motor 100% Elétrico",
+      "descricao": "Aceleração instantânea com autonomia de até 600 km"
+    },
+    "descricaoSpecs": {
+      "potencia": "Potência máxima entregue pelos motores elétricos, garantindo desempenho imediato.",
+      "torque": "Torque instantâneo disponível desde o início da aceleração.",
+      "zeroA100": "Tempo de aceleração extremamente baixo, comparável a hipercarros.",
+      "velocidadeMax": "Velocidade máxima elevada para um veículo totalmente elétrico.",
+      "consumo": "Autonomia elétrica que reflete a eficiência energética do conjunto.",
+      "tracao": "Tração integral controlada eletronicamente para máxima estabilidade.",
+      "bateriaOuTanque": "Bateria de alta capacidade que garante grande autonomia.",
+      "marchas": "Sistema de transmissão direta sem necessidade de trocas de marcha."
+    },
+    "modelo3D": "https://sketchfab.com/models/5c0f22e3cbc24c89879fadaa440c350f/embed?autostart=1&annotations_visible=0&transparent=1"
+  },
+  {
+    "id": 6,
+    "nome": "BMW M5 Competition",
+    "marca": "BMW",
+    "logo": "/Logos/LOGO_BMW.png",
+    "imagens": [
+      "/IMGs_detalhesCarros/bmw m5/thumbnail_2022-BMW-M5-CS-9.jpg",
+      "/IMGs_detalhesCarros/bmw m5/bmw-serie-5-m5-cs-03.jpg",
+      "/IMGs_detalhesCarros/bmw m5/BMW-M5-CS-2021 (3).jpg",
+      "/IMGs_detalhesCarros/bmw m5/bmw-m5-27-1699.jpg",
+      "/IMGs_detalhesCarros/bmw m5/g-power-turns-the-bmw-m5-cs-into-a-category-5-hurricane-3.webp"
+    ],
+    "preco": 850000,
+    "ano": 2022,
+    "quilometragem": 15000,
+    "combustivel": "Gasolina",
+    "cambio": "Automático",
+    "potencia": "510 cv",
+    "torque": "66,3 kgfm",
+    "zeroA100": "3.9s",
+    "velocidadeMax": "290 km/h",
+    "consumo": "8 km/l",
+    "tracao": "Traseira",
+    "bateriaOuTanque": "59L",
+    "marchas": "8 marchas",
+    "descricao": "O BMW M5 Competition é um esportivo que traduz perfeitamente o DNA de performance da marca alemã. Equipado com um motor seis cilindros biturbo, ele oferece potência impressionante aliada a uma dirigibilidade precisa. Seu design é marcante, com linhas agressivas e a icônica grade frontal que reforça sua identidade. No interior, o acabamento combina esportividade e sofisticação, com materiais de alta qualidade. É um carro ideal para quem busca emoção ao dirigir sem abrir mão do conforto.",
+    "destaque": {
+      "titulo": "DNA esportivo",
+      "conteudo": "Performance com dirigibilidade refinada."
+    },
+    "especificacoesDetalhadas": [
+      {
+        "titulo": "Design Esportivo Marcante",
+        "descricao": "Visual esportivo com linhas agressivas e a icônica grade frontal da BMW."
+      },
+      {
+        "titulo": "Tecnologia iDrive Inteligente",
+        "descricao": "Sistema iDrive com interface moderna e recursos avançados de conectividade."
+      },
+      {
+        "titulo": "Motor 6 Cilindros Biturbo",
+        "descricao": "Motor seis cilindros biturbo com alta performance e entrega de potência linear."
+      },
+      {
+        "titulo": "Conforto com DNA de Pista",
+        "descricao": "Interior premium com bancos esportivos e acabamento refinado."
+      }
+    ],
+    "destaquesSpecs": [
+      "potencia",
+      "tracao",
+      "zeroA100"
+    ],
+    "motorDestaque": {
+      "titulo": "Motor 6 Cilindros Biturbo",
+      "descricao": "Alta performance com entrega linear e dirigibilidade precisa"
+    },
+    "descricaoSpecs": {
+      "potencia": "Potência máxima do motor V8 biturbo, garantindo desempenho elevado.",
+      "torque": "Força intensa que proporciona acelerações rápidas e consistentes.",
+      "zeroA100": "Tempo de aceleração reduzido, combinando esportividade e controle.",
+      "velocidadeMax": "Velocidade máxima elevada com limitação eletrônica.",
+      "consumo": "Consumo equilibrado considerando o desempenho do veículo.",
+      "tracao": "Tração traseira que prioriza uma condução mais esportiva.",
+      "bateriaOuTanque": "Tanque de combustível com autonomia adequada para uso diário.",
+      "marchas": "Câmbio automático esportivo com trocas rápidas e precisas."
+    },
+    "modelo3D": "https://sketchfab.com/models/dc34c3fd9056460da48317ce0ff6b998/embed?autostart=1&transparent=1"
+  },
+  {
+    "id": 7,
+    "nome": "Audi RS6",
+    "marca": "Audi",
+    "logo": "/Logos/LOGO_Audi.png",
+    "imagens": [
+      "/IMGs_detalhesCarros/audi rs6/177428430944027_P6718242.webp",
+      "/IMGs_detalhesCarros/audi rs6/mg-9349.webp",
+      "/IMGs_detalhesCarros/audi rs6/Audi-RS6-Avant.jpg",
+      "/IMGs_detalhesCarros/audi rs6/audi-rs6-avant-12.webp",
+      "/IMGs_detalhesCarros/audi rs6/RS6 Avant 4.jpg"
+    ],
+    "preco": 900000,
+    "ano": 2023,
+    "quilometragem": 8000,
+    "combustivel": "Gasolina",
+    "cambio": "Automático",
+    "potencia": "600 cv",
+    "torque": "81,6 kgfm",
+    "zeroA100": "3.6s",
+    "velocidadeMax": "305 km/h",
+    "consumo": "9 km/l",
+    "tracao": "Integral",
+    "bateriaOuTanque": "73L",
+    "marchas": "8 marchas",
+    "descricao": "O Audi RS6 é um sedan esportivo que combina elegância, tecnologia e desempenho de forma excepcional. Seu motor V8 biturbo garante aceleração rápida e potência abundante, enquanto o sistema de tração integral proporciona estabilidade e segurança. O design é sofisticado, com linhas fluidas e detalhes agressivos que destacam sua personalidade esportiva. No interior, o destaque fica para o cockpit virtual e os acabamentos premium, oferecendo uma experiência moderna e luxuosa.",
+    "destaque": {
+      "titulo": "Elegância esportiva",
+      "conteudo": "Combina luxo com alta performance."
+    },
+    "especificacoesDetalhadas": [
+      {
+        "titulo": "Design Elegante e Agressivo",
+        "descricao": "Linhas elegantes combinadas com detalhes esportivos que reforçam sua identidade agressiva."
+      },
+      {
+        "titulo": "Design Elegante e Agressivo",
+        "descricao": "Cockpit virtual com painel totalmente digital e sistemas avançados de assistência."
+      },
+      {
+        "titulo": "Tecnologia Virtual Cockpit",
+        "descricao": "Motor V8 biturbo com alta potência e desempenho consistente em todas as rotações."
+      },
+      {
+        "titulo": "Conforto de Alto Nível",
+        "descricao": "Interior luxuoso com materiais premium e excelente isolamento acústico."
+      }
+    ],
+    "destaquesSpecs": [
+      "potencia",
+      "tracao",
+      "velocidadeMax"
+    ],
+    "motorDestaque": {
+      "titulo": "Motor V8 Biturbo",
+      "descricao": "Potência elevada com suavidade e resposta rápida em qualquer rotação"
+    },
+    "descricaoSpecs": {
+      "potencia": "Potência máxima do motor V8 biturbo, oferecendo desempenho consistente.",
+      "torque": "Força elevada disponível em diferentes faixas de rotação.",
+      "zeroA100": "Tempo de aceleração rápido mesmo para um veículo familiar.",
+      "velocidadeMax": "Velocidade máxima elevada com excelente estabilidade.",
+      "consumo": "Consumo equilibrado para um veículo de alto desempenho.",
+      "tracao": "Tração integral quattro que garante máxima aderência.",
+      "bateriaOuTanque": "Tanque de combustível com boa autonomia para longas viagens.",
+      "marchas": "Câmbio automático com trocas suaves e rápidas."
+    },
+    "modelo3D": "https://sketchfab.com/models/980dbda2cbbb4bae8decaed2fa80aa0c/embed?autostart=1&transparent=1"
+  },
+  {
+    "id": 8,
+    "nome": "Mercedes-AMG GT 63 S",
+    "marca": "Mercedes-Benz",
+    "logo": "/Logos/LOGO_Mercedes.png",
+    "imagens": [
+      "/IMGs_detalhesCarros/Mercedes-AMG GT 63 S/mercedes-amg-gt-63-s-e-performance-1-frente-diagonal.avif",
+      "/IMGs_detalhesCarros/Mercedes-AMG GT 63 S/WhatsApp Image 2026-03-26 at 07.31.59.jpeg",
+      "/IMGs_detalhesCarros/Mercedes-AMG GT 63 S/WhatsApp Image 2026-03-26 at 07.30.38.jpeg",
+      "/IMGs_detalhesCarros/Mercedes-AMG GT 63 S/bancos-traseiros-mercedes-amg.avif",
+      "/IMGs_detalhesCarros/Mercedes-AMG GT 63 S/WhatsApp Image 2026-03-26 at 07.30.58.jpeg"
+    ],
+    "preco": 1670000,
+    "ano": 2022,
+    "quilometragem": 11300,
+    "combustivel": "Híbrido",
+    "cambio": "Automático",
+    "potencia": "843 cv",
+    "torque": "142 kgfm",
+    "zeroA100": "2.9s",
+    "velocidadeMax": "316 km/h",
+    "consumo": "12 km/l",
+    "tracao": "Integral",
+    "bateriaOuTanque": "Bateria + tanque",
+    "marchas": "9 marchas",
+    "descricao": "O Mercedes-AMG GT 63 S é a combinação perfeita entre luxo e desempenho extremo. Com um sistema híbrido de alta performance, ele entrega potência impressionante sem abrir mão da eficiência. Seu design é elegante e agressivo ao mesmo tempo, refletindo sua proposta esportiva. O interior é um espetáculo à parte, com materiais premium, tecnologia avançada e conforto excepcional. É um carro que oferece tanto emoção ao dirigir quanto sofisticação no dia a dia.",
+    "destaque": {
+      "titulo": "Equilíbrio total",
+      "conteudo": "Potência absurda com conforto premium."
+    },
+    "especificacoesDetalhadas": [
+      {
+        "titulo": "Design AMG Imponente",
+        "descricao": "Visual elegante com toque esportivo característico da linha AMG."
+      },
+      {
+        "titulo": "Design AMG Imponente",
+        "descricao": "Sistema híbrido avançado com recursos digitais e assistentes inteligentes."
+      },
+      {
+        "titulo": "Tecnologia Híbrida Avançada",
+        "descricao": "Motor V8 biturbo combinado com sistema elétrico, entregando potência extrema."
+      },
+      {
+        "titulo": "Motor V8 + Elétrico",
+        "descricao": "Interior sofisticado com tecnologia de ponta e acabamento premium."
+      }
+    ],
+    "destaquesSpecs": [
+      "potencia",
+      "torque",
+      "zeroA100"
+    ],
+    "motorDestaque": {
+      "titulo": "Motor Híbrido AMG",
+      "descricao": "Combinação de V8 biturbo com elétrico para potência extrema"
+    },
+    "descricaoSpecs": {
+      "potencia": "Potência máxima combinada do sistema híbrido, garantindo desempenho extremo.",
+      "torque": "Torque elevado com resposta imediata em qualquer situação.",
+      "zeroA100": "Tempo de aceleração muito baixo para um sedan de luxo.",
+      "velocidadeMax": "Velocidade máxima elevada com estabilidade refinada.",
+      "consumo": "Consumo otimizado pelo auxílio do sistema elétrico.",
+      "tracao": "Tração integral que distribui a força com precisão.",
+      "bateriaOuTanque": "Sistema híbrido com bateria e tanque de combustível integrados.",
+      "marchas": "Câmbio automático AMG com foco em performance."
+    },
+    "modelo3D": "https://sketchfab.com/models/80561d28f6b04d8f93f163067c67a699/embed?autostart=1&transparent=1"
+  },
+  {
+    "id": 9,
+    "nome": "Range Rover Sport",
+    "marca": "Land Rover",
+    "logo": "/Logos/LOGO_RangeRover.png",
+    "imagens": [
+      "/IMGs_detalhesCarros/range rover/2026_land-rover_range-rover-sport_4dr-suv_p530-dynamic-se_fq_oem_1_1600.avif",
+      "/IMGs_detalhesCarros/range rover/36541_1.jpg",
+      "/IMGs_detalhesCarros/range rover/Land_Rover-Range-Rover-Sport-2014 (14).jpg",
+      "/IMGs_detalhesCarros/range rover/wmremove-transformed.png",
+      "/IMGs_detalhesCarros/range rover/land-rover_range-rover-velar_2019_1_19082018_10336_1280_960.jpg"
+    ],
+    "preco": 980000,
+    "ano": 2023,
+    "quilometragem": 6000,
+    "combustivel": "Híbrido",
+    "cambio": "Automático",
+    "potencia": "510 cv",
+    "torque": "71 kgfm",
+    "zeroA100": "5.4s",
+    "velocidadeMax": "250 km/h",
+    "consumo": "11 km/l",
+    "tracao": "Integral",
+    "bateriaOuTanque": "Bateria + tanque",
+    "marchas": "8 marchas",
+    "descricao": "O Range Rover Sport é um SUV de luxo que combina capacidade off-road com conforto e sofisticação. Seu sistema de tração integral e suspensão avançada permitem enfrentar qualquer terreno com facilidade, enquanto o interior oferece uma experiência premium com materiais de alta qualidade. O design é moderno e elegante, transmitindo presença e robustez. É o carro ideal para quem busca versatilidade sem abrir mão do luxo.",
+    "destaque": {
+      "titulo": "Versatilidade premium",
+      "conteudo": "Luxo na cidade e força fora dela."
+    },
+    "especificacoesDetalhadas": [
+      {
+        "titulo": "Design SUV Sofisticado",
+        "descricao": "SUV elegante com linhas modernas e presença robusta."
+      },
+      {
+        "titulo": "Tecnologia Off-Road Inteligente",
+        "descricao": "Sistema inteligente de condução off-road com diversos modos de terreno."
+      },
+      {
+        "titulo": "Motor Híbrido Versátil",
+        "descricao": "Motorização híbrida que combina eficiência energética com desempenho consistente."
+      },
+      {
+        "titulo": "Conforto Premium Absoluto",
+        "descricao": "Interior espaçoso e luxuoso com acabamento refinado."
+      }
+    ],
+    "destaquesSpecs": [
+      "tracao",
+      "potencia",
+      "bateriaOuTanque"
+    ],
+    "motorDestaque": {
+      "titulo": "Motor Híbrido Avançado",
+      "descricao": "Eficiência energética com força suficiente para qualquer terreno"
+    },
+    "descricaoSpecs": {
+      "potencia": "Potência máxima do sistema híbrido, equilibrando desempenho e eficiência.",
+      "torque": "Força ideal para uso urbano e off-road.",
+      "zeroA100": "Tempo de aceleração adequado para um SUV de luxo.",
+      "velocidadeMax": "Velocidade máxima limitada para segurança e conforto.",
+      "consumo": "Consumo eficiente com auxílio do sistema híbrido.",
+      "tracao": "Tração integral projetada para qualquer tipo de terreno.",
+      "bateriaOuTanque": "Sistema híbrido que combina bateria e tanque para maior autonomia.",
+      "marchas": "Câmbio automático com foco em suavidade e conforto."
+    },
+    "modelo3D": "https://sketchfab.com/models/640826210d2a4be9ae6e638fec1e84fa/embed?autostart=1&transparent=1"
+  },
+  {
+    "id": 10,
+    "nome": "Ford Mustang GT",
+    "marca": "Ford",
+    "logo": "/Logos/LOGO_Ford.png",
+    "imagens": [
+      "/IMGs_detalhesCarros/Ford Mustang GT/ford-brasil-noticia-lancamento-mustang-gt-performance-frente-estrada-250324.jpg",
+      "/IMGs_detalhesCarros/Ford Mustang GT/Mustang-MT_Interior-1-min.webp",
+      "/IMGs_detalhesCarros/Ford Mustang GT/TE140818Arr.jpg",
+      "/IMGs_detalhesCarros/Ford Mustang GT/qr-707-car-mustang-0736.webp",
+      "/IMGs_detalhesCarros/Ford Mustang GT/250814-ford-brasil-noticia-mustang-dark-horse-lateral-pista.jpg"
+    ],
+    "preco": 550000,
+    "ano": 2022,
+    "quilometragem": 12000,
+    "combustivel": "Gasolina",
+    "cambio": "Manual",
+    "potencia": "488 cv",
+    "torque": "57,5 kgfm",
+    "zeroA100": "4.3s",
+    "velocidadeMax": "250 km/h",
+    "consumo": "7 km/l",
+    "tracao": "Traseira",
+    "bateriaOuTanque": "61L",
+    "marchas": "6 marchas",
+    "descricao": "O Ford Mustang GT é um verdadeiro ícone dos muscle cars americanos, conhecido por seu motor V8 potente e som inconfundível. Ele oferece uma experiência de condução emocionante, com aceleração forte e comportamento esportivo. Seu design clássico foi modernizado, mantendo a essência que o tornou famoso. No interior, combina tecnologia atual com um toque esportivo. É um carro que representa tradição, potência e emoção ao dirigir.",
+    "destaque": {
+      "titulo": "Som do V8",
+      "conteudo": "Experiência pura de muscle car."
+    },
+    "especificacoesDetalhadas": [
+      {
+        "titulo": "Design Clássico Muscle Car",
+        "descricao": "Visual clássico de muscle car com linhas agressivas e identidade marcante."
+      },
+      {
+        "titulo": "Tecnologia Moderna Integrada",
+        "descricao": "Painel digital moderno com recursos de conectividade e performance."
+      },
+      {
+        "titulo": "Motor V8 Aspirado",
+        "descricao": "Motor V8 aspirado que entrega potência bruta e um som inconfundível."
+      },
+      {
+        "titulo": "Conforto Esportivo Raiz",
+        "descricao": "Interior esportivo com bom nível de conforto para uso diário."
+      }
+    ],
+    "destaquesSpecs": [
+      "potencia",
+      "torque",
+      "marchas"
+    ],
+    "motorDestaque": {
+      "titulo": "Motor V8 Aspirado",
+      "descricao": "Som marcante e entrega de potência clássica dos muscle cars"
+    },
+    "descricaoSpecs": {
+      "potencia": "Potência máxima do motor V8 aspirado, com entrega bruta e direta.",
+      "torque": "Força elevada que proporciona arrancadas intensas.",
+      "zeroA100": "Tempo de aceleração rápido com sensação visceral.",
+      "velocidadeMax": "Velocidade máxima limitada eletronicamente.",
+      "consumo": "Consumo elevado característico de motores V8.",
+      "tracao": "Tração traseira tradicional dos muscle cars.",
+      "bateriaOuTanque": "Tanque de combustível com boa capacidade para viagens.",
+      "marchas": "Câmbio manual que proporciona maior controle ao motorista."
+    },
+    "modelo3D": "https://sketchfab.com/models/630c6547b301489cae0f08283c4b6608/embed?autostart=1&transparent=1"
+  },
+  {
+    "id": 11,
+    "nome": "Chevrolet Camaro SS",
+    "marca": "Chevrolet",
+    "logo": "/Logos/LOGO_Chevrolet.png",
+    "imagens": [
+      "/IMGs_detalhesCarros/Chevrolet Camaro SS/2024-chevrolet-camaro-ss-collectors-edition-1-647e1933c6c20.avif",
+      "/IMGs_detalhesCarros/Chevrolet Camaro SS/foto-Album-de-CHEVROLET-CAMARO-A15381-687f9885906c8.jpg",
+      "/IMGs_detalhesCarros/Chevrolet Camaro SS/2024071301182267443_image-3.jpg",
+      "/IMGs_detalhesCarros/Chevrolet Camaro SS/2014-06-13-fgd-2660.webp",
+      "/IMGs_detalhesCarros/Chevrolet Camaro SS/IMG_6713.JPG"
+    ],
+    "preco": 520000,
+    "ano": 2022,
+    "quilometragem": 14000,
+    "combustivel": "Gasolina",
+    "cambio": "Automático",
+    "potencia": "461 cv",
+    "torque": "62,9 kgfm",
+    "zeroA100": "4.2s",
+    "velocidadeMax": "290 km/h",
+    "consumo": "6 km/l",
+    "tracao": "Traseira",
+    "bateriaOuTanque": "72L",
+    "marchas": "8 marchas",
+    "descricao": "O Chevrolet Camaro SS é um esportivo que se destaca pela sua presença marcante e desempenho robusto. Equipado com um motor V8 potente, ele entrega aceleração rápida e uma condução envolvente. Seu design agressivo reforça sua identidade esportiva, enquanto o interior oferece conforto e tecnologia para o dia a dia. É uma escolha ideal para quem busca um carro com personalidade forte e performance consistente.",
+    "destaque": {
+      "titulo": "Muscle moderno",
+      "conteudo": "Design agressivo e potência bruta."
+    },
+    "especificacoesDetalhadas": [
+      {
+        "titulo": "Conforto Esportivo Raiz",
+        "descricao": "Linhas musculosas e agressivas que reforçam sua identidade esportiva."
+      },
+      {
+        "titulo": "Tecnologia de Performance",
+        "descricao": "Sistema multimídia moderno com conectividade e recursos inteligentes."
+      },
+      {
+        "titulo": "Motor V8 de Alta Potência",
+        "descricao": "Motor V8 potente com excelente aceleração e resposta rápida."
+      },
+      {
+        "titulo": "Conforto Esportivo Equilibrado",
+        "descricao": "Interior confortável com acabamento esportivo e boa ergonomia."
+      }
+    ],
+    "destaquesSpecs": [
+      "potencia",
+      "torque",
+      "zeroA100"
+    ],
+    "motorDestaque": {
+      "titulo": "Motor V8 Performance",
+      "descricao": "Potência consistente com aceleração forte e resposta imediata"
+    },
+    "descricaoSpecs": {
+      "potencia": "Potência máxima do motor V8, garantindo desempenho consistente.",
+      "torque": "Força elevada disponível para respostas rápidas.",
+      "zeroA100": "Tempo de aceleração rápido com foco em esportividade.",
+      "velocidadeMax": "Velocidade máxima elevada com boa estabilidade.",
+      "consumo": "Consumo elevado devido ao foco em performance.",
+      "tracao": "Tração traseira que favorece a condução esportiva.",
+      "bateriaOuTanque": "Tanque de combustível com autonomia adequada.",
+      "marchas": "Câmbio automático com trocas rápidas e eficientes."
+    },
+    "modelo3D": "https://sketchfab.com/models/3561f21d49cd45a18cfee52611f843a4/embed?autostart=1&transparent=1"
+  },
+  {
+    "id": 12,
+    "nome": "Toyota Supra GR",
+    "marca": "Toyota",
+    "logo": "/Logos/LOGO_Toyota.png",
+    "imagens": [
+      "/IMGs_detalhesCarros/Toyota Supra GR/TOYOTA-SUPRA-DIANTEIRA.webp",
+      "/IMGs_detalhesCarros/Toyota Supra GR/2026-Toyota-GR-Supra-MK5-16-scaled.jpg",
+      "/IMGs_detalhesCarros/Toyota Supra GR/20250111064745015_IMG_7380.jpg",
+      "/IMGs_detalhesCarros/Toyota Supra GR/d4593689-35ef-4186-bc9f-81cb72d29e4c.webp",
+      "/IMGs_detalhesCarros/Toyota Supra GR/46a11e558e9f46a39a7477472b03d894_1770754160166.jpeg"
+    ],
+    "preco": 450000,
+    "ano": 2023,
+    "quilometragem": 7000,
+    "combustivel": "Gasolina",
+    "cambio": "Automático",
+    "potencia": "387 cv",
+    "torque": "51 kgfm",
+    "zeroA100": "4.1s",
+    "velocidadeMax": "250 km/h",
+    "consumo": "10 km/l",
+    "tracao": "Traseira",
+    "bateriaOuTanque": "52L",
+    "marchas": "8 marchas",
+    "descricao": "O Toyota Supra GR é um esportivo que combina tradição e modernidade em um pacote equilibrado. Desenvolvido com foco na dirigibilidade, ele oferece excelente controle e resposta dinâmica. Seu motor turbo entrega potência de forma eficiente, enquanto o design moderno chama atenção. No interior, o acabamento é focado no motorista, proporcionando uma experiência envolvente. É um carro ideal para quem valoriza precisão e prazer ao dirigir.",
+    "destaque": {
+      "titulo": "Precisão japonesa",
+      "conteudo": "Equilíbrio entre performance e controle."
+    },
+    "especificacoesDetalhadas": [
+      {
+        "titulo": "Design Esportivo Japonês",
+        "descricao": "Visual esportivo moderno com linhas fluidas e aerodinâmicas."
+      },
+      {
+        "titulo": "Tecnologia de Alta Precisão",
+        "descricao": "Sistema tecnológico avançado inspirado na BMW, com ótima conectividade."
+      },
+      {
+        "titulo": "Motor Turbo 6 Cilindros",
+        "descricao": "Motor seis cilindros turbo que entrega potência com eficiência e resposta rápida."
+      },
+      {
+        "titulo": "Conforto com Foco no Motorista",
+        "descricao": "Interior focado no motorista com acabamento esportivo e confortável."
+      }
+    ],
+    "destaquesSpecs": [
+      "zeroA100",
+      "tracao",
+      "potencia"
+    ],
+    "motorDestaque": {
+      "titulo": "Motor 6 Cilindros Turbo",
+      "descricao": "Equilíbrio ideal entre performance, eficiência e controle"
+    },
+    "descricaoSpecs": {
+      "potencia": "Potência máxima do motor turbo, equilibrando desempenho e eficiência.",
+      "torque": "Força disponível rapidamente, garantindo agilidade nas acelerações.",
+      "zeroA100": "Tempo de aceleração rápido com excelente controle.",
+      "velocidadeMax": "Velocidade máxima limitada eletronicamente.",
+      "consumo": "Consumo eficiente para um esportivo.",
+      "tracao": "Tração traseira que proporciona maior controle dinâmico.",
+      "bateriaOuTanque": "Tanque de combustível com boa autonomia.",
+      "marchas": "Câmbio automático com trocas rápidas e suaves."
+    },
+    "modelo3D": "https://sketchfab.com/models/371c9c1ded6440699b7c261c0fb82a2c/embed?autostart=1&transparent=1"
+  }
+]

@@ -1,0 +1,91 @@
+.fundo{
+    background: rgba(0, 0, 0, 0.449);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+        animation-name: fundo;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.imgFundo{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.5;
+}
+
+.logo{
+    position: absolute;
+    animation-name: logo;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-duration: 1.5s;
+    /* backdrop-filter: blur(3px); */
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.faixaBranca{
+    position: absolute;
+    left: 0;
+    right: inherit;
+    height: 100vh;
+    width: 300px;
+    background: linear-gradient(to right,transparent, rgba(255, 255, 255, 0.14), transparent);
+
+        animation-name: faixa;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+}
+
+@media (max-width: 750px){
+    .logo{
+        width: 300px;
+    }
+
+    .faixaBranca{
+        width: 100px;
+        filter: blur(4px);
+    }
+}
+
+@keyframes logo {
+    0%{
+        transform: scale(0.7);
+        opacity: 10%;       
+    }
+    100%{
+        transform: scale(1);
+        opacity: 100%;
+    }
+}
+
+@keyframes fundo {
+    0%{
+        filter: blur(10px);       
+    }
+    100%{
+        filter: blur(0px);
+    }
+}
+
+@keyframes faixa {
+    0%{
+        opacity: 100%;
+        transform: translateX(0vw);   
+    }
+    100%{
+        transform: translateX(80vw);
+        opacity: 15%;
+    }
+}
+

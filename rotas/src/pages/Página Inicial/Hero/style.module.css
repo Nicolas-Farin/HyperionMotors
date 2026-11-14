@@ -1,0 +1,367 @@
+* {
+    font-family: 'Montserrat';
+}
+
+body {
+    background-color: black;
+}
+
+.animar {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 1s ease, transform 0.8s ease;
+}
+
+.animar.mostrar {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.wrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+.carrosel {
+    display: flex;
+    height: 630px;
+    transition: transform 0.8s ease-in-out;
+}
+
+.item {
+    min-width: 100%;
+    height: 700px;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+
+    img {
+        object-fit: cover;
+    }
+}
+
+.media {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+
+.psUm{
+    object-position: 65% 40%;
+}
+
+.psDois{
+    object-position: 15% 80%;
+}
+
+
+.wrapper:hover .media {
+    opacity: 1;
+}
+
+@media (max-width: 1200px) {
+    .media {
+        opacity: 1;
+    }
+}
+
+.container {
+    width: 100%;
+    position: absolute;
+    color: white;
+    z-index: 10;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    height: 80%;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.itemUm {
+    .titulo {
+        margin: 40px;
+        margin-top: 60PX;
+        align-self: flex-start;
+        justify-self: start;
+    }
+
+    .descricao {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-self: start;
+        margin-left: 40px;
+    }
+
+}
+
+.itemDois {
+    .titulo {
+        margin: 40px;
+        margin-top: 60PX;
+        align-self: center;
+        justify-self: center;
+
+        p {
+            align-self: center;
+            justify-self: center;
+        }
+    }
+
+    .descricao {
+
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-self: flex-end;
+        justify-self: center;
+
+        a {
+            align-self: center;
+            justify-self: end;
+            margin-top: 250px;
+        }
+    }
+
+    .verMais{
+        margin-top: -40px;
+    }
+
+}
+
+.itemTres {
+    .titulo {
+        margin: 40px;
+        margin-top: 60PX;
+        align-self: flex-end;
+        justify-self: end;
+
+        p {
+            align-self: flex-end;
+            justify-self: end;
+        }
+    }
+
+    .descricao {
+        margin-right: 40px;
+        display: flex;
+        text-align: end;
+        flex-direction: column;
+        align-self: flex-end;
+        justify-self: end;
+
+        a {
+            align-self: flex-end;
+            justify-self: end;
+        }
+    }
+
+}
+
+
+
+.titulo {
+    h1 {
+        font-weight: 300;
+        font-size: clamp(16px, 10vw, 64px);
+    }
+
+    p {
+        font-weight: 100;
+        font-size:  clamp(10px, 5vw, 19px);
+    }
+}
+
+.descricao {
+    width: 80%;
+    text-wrap: wrap;
+    p {
+        font-size: clamp(14px, 5vw, 22px);
+        font-weight: 200;
+    }
+
+    b {
+        font-weight: 600;
+        font-size: clamp(10px, 5vw, 22px);
+    }
+
+    a {
+        text-decoration: none;
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        background: none;
+        color: white;
+        height: 45px;
+        font-size: 16px;
+        border-radius: 7px;
+        padding: 0 15px;
+        width: 150px;
+        border: solid 1px white;
+        transition: 0.2s;
+
+        &:hover {
+            background: rgba(83, 83, 83, 0.544);
+        }
+    }
+}
+
+.verMais {
+    justify-self: end;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    margin-right: 4%;
+    width: 100px;
+    margin-top: 50px;
+    padding: 3px;
+    color: white;
+    text-decoration: none;
+
+    p{
+        font-size: 16px;
+    }
+
+    img {
+        transform: translateX(-10px);
+        height: 30px;
+        width: 50px;
+        opacity: 0.4;
+        filter: invert(1);
+        transition: 0.2s;
+    }
+
+    &:hover img {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.playBtn {
+    position: absolute;
+    bottom: 140px;
+    left: 20px;
+    z-index: 20;
+    padding: 12px 18px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    color: white;
+    border: solid 1px rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.botoes {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    z-index: 100;
+    align-self: flex-end;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.botao {
+    width: 28%;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    position: relative;
+
+}
+
+.decoBtn {
+    position: relative;
+    width: 90%;
+    height: 15%;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+/* camada vermelha */
+.decoBtn::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #9C0000;
+    transition: 0.3s;
+    transform: scaleX(0);
+    transform-origin: left;
+    z-index: 0;
+}
+
+.ativo .decoBtn::before {
+    animation: progresso 15s linear forwards;
+}
+
+.botao:not(.ativo):hover .decoBtn::before {
+    transform: scaleX(1);
+}
+
+.botao:not(.ativo):hover .decoBtn {
+    background-color: transparent;
+}
+
+.decoBtn>* {
+    position: relative;
+    z-index: 1;
+}
+
+.ativo {
+    .decoBtn {
+        background-color: white;
+    }
+
+    img {
+        display: none;
+    }
+}
+
+@keyframes progresso {
+    from {
+        transform: scaleX(0);
+    }
+
+    to {
+        transform: scaleX(1);
+    }
+}
+
+.preview {
+    position: absolute;
+    left: 50%;
+    bottom: 100%;
+    width: 90%;
+    height: 180px;
+    object-fit: cover;
+    transform: translateX(-50%) translateY(30px) scale(0.9);
+    border-radius: 10px;
+    border: solid rgb(129, 129, 129) 1px;
+    opacity: 0;
+    pointer-events: none;
+
+    transition: 0.3s ease;
+    z-index: 200;
+}
+
+.botao:not(.ativo):hover .preview {
+    opacity: 0.8;
+    transform: translateX(-50%) translateY(0px) scale(1);
+}

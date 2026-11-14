@@ -1,0 +1,156 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: 0.2s;
+    border: solid 1px hsla(0, 0%, 0%, 0.25);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* IMAGEM */
+.fotoPrincipal {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+/* BODY */
+.cardBody {
+    padding: 10px 16px 16px 16px;
+}
+
+.cardBody h2 {
+    font-size: 18px;
+}
+
+.categoria {
+    font-size: 12px;
+    color: #777;
+}
+
+.nomeCarro {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.icone {
+    width: 14px;
+    height: auto;
+}
+
+.logo {
+    width: auto;
+    height: 28px;
+}
+
+/* INFOS */
+.infos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+    margin: 10px 0;
+    font-size: 13px;
+    color: #666;
+}
+
+/* PREÇO */
+.preco {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+
+.preco strong {
+    color: #e11d2e;
+    font-size: 18px;
+}
+
+.preco a {
+    border: 1.5px solid #ccc;
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: black;
+}
+
+.btnDetalhes {
+    transition: all ease-in-out 0.2s;
+}
+
+.btnDetalhes:hover {
+    background-color: #e11d2e;
+    color: white;
+    transform: translateY(-3px);
+}
+
+
+
+/* 🔴 DEFAULT (DESKTOP) */
+.lista {
+    display: block;
+}
+
+.lista .fotoPrincipal {
+    width: 100%;
+    height: 240px;
+}
+
+.lista .cardBody {
+    width: 100%;
+}
+
+
+/* 📱 TABLET / MOBILE */
+@media (max-width: 900px) {
+
+    .lista {
+        display: flex;
+        height: 220px;
+    }
+
+    .lista .fotoPrincipal {
+        width: 40%;
+        height: 100%;
+    }
+
+    .lista .cardBody {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 4px;
+    }
+}
+
+
+
+/* 📱 MOBILE */
+@media (max-width: 460px) {
+
+    .lista {
+        display: block;
+        /* força mesmo */
+        height: auto;
+    }
+
+    .lista .fotoPrincipal {
+        width: 100%;
+        height: 200px;
+    }
+
+    .lista .cardBody {
+        width: 100%;
+        display: block;
+    }
+}

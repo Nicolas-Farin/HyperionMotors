@@ -1,0 +1,310 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border: solid 1px rgba(255, 255, 255, 0.1);
+    margin: 12px 0;
+}
+
+.divisoria {
+    border: solid 1px rgba(255, 255, 255, 0.1);
+    margin: 6px 0;
+}
+
+.estatico {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://www.paitomotors.com.br/media/wysiwyg/carros-de-luxo-paito-motors-banner-estoquev1.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    top: 0;
+    width: 100%;
+    min-height: 100vh;
+    position: fixed;
+    z-index: 0;
+    transform: translateY(-40PX);
+}
+/* HERO */
+.hero {
+    height: 150px;
+    background-color: black;
+    position: relative;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 75px;
+    margin-top: 70px;
+    z-index: 2;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    pointer-events: none;
+    z-index: 1;
+}
+
+.hero h1 {
+    font-size: 30px;
+    background-color: #ffffff21;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 12px;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 1200px;
+    margin: -60px auto 40px;
+    display: flex;
+    gap: 30px;
+    padding: 0 20px 80px 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+
+/* CARD PADRÃO */
+.card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    width: 350px;
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(7px);
+    color: white;
+    border: 1px rgba(255, 255, 255, 0.4) solid;
+    position: relative;
+    z-index: 2;
+}
+
+.card h3 {
+    font-size: 18px;
+}
+
+/* FORM */
+.cardFormBox {
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(7px);
+    color: white;
+    border: 1px rgba(255, 255, 255, 0.4) solid;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    width: 540px;
+    max-width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.cardFormBox h2 {
+    margin-bottom: 20px;
+}
+
+/* LABEL */
+.cardFormBox label {
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+/* INPUTS */
+.cardFormBox input,
+.cardFormBox textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid hsla(0, 0%, 80%, 0.4);
+    transition: 0.3s;
+    background-color: transparent;
+    color: white;
+    position: relative;
+    z-index: 2;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: rgb(197, 197, 197);
+    font-style: bold;
+}
+
+.cardFormBox input:focus,
+.cardFormBox textarea:focus {
+    border-color: #e30613;
+    outline: none;
+    box-shadow: 0 0 5px rgba(227, 6, 19, 0.2);
+}
+
+.cardFormBox textarea {
+    height: 126px;
+    resize: none;
+}
+
+/* BOTÃO */
+.cardFormBox button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #e30613;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+    z-index: 2;
+}
+
+.cardFormBox button:hover {
+    background: #b8000f;
+    transform: translateY(-2px);
+}
+
+/* INFO */
+.infoBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.infoItem {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.icon {
+    background: #e30613;
+    color: #fff;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    font-size: 14px;
+    flex-shrink: 0;
+    align-self: center;
+}
+
+.icon img {
+    width: 18px;
+    filter: brightness(0) invert(1);
+}
+
+.iconTelefone {
+    background: #e30613;
+    color: #fff;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    font-size: 14px;
+    flex-shrink: 0;
+    align-self: center;
+}
+
+.iconTelefone img {
+    width: 14px;
+    filter: brightness(0) invert(1);
+}
+
+.tituloHorario {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    gap: 10px;
+}
+
+.infoText {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.title {
+    color: #e30613;
+    font-weight: bold;
+}
+
+/* HORÁRIO */
+.hours div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.closed {
+    color: red;
+}
+
+/* MAPA */
+.map {
+    width: 100%;
+    margin-top: 800px;
+    padding: 12px 12px 2px 12px;
+    background-color: #202020;
+    position: relative;
+    z-index: 2;
+}
+
+.map iframe {
+    width: 100%;
+    height: 530px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* SOBREPOSIÇÃO */
+.sobreposicao {
+    position: relative;
+    z-index: 2;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: -50px;
+    }
+
+    .cardFormBox,
+    .card,
+    .infoBox {
+        width: 100%;
+        max-width: 600px;
+        flex: 1;
+    }
+
+    .estatico {
+        position: absolute;
+    }
+
+    .map {
+        margin-top: 1250px;
+    }
+}

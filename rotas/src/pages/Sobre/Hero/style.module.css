@@ -1,0 +1,62 @@
+.animar {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+    transition-delay: 0.2s;
+    will-change: opacity, transform;
+}
+
+.animar.mostrar {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: radial-gradient(rgba(0, 0, 0, 0.634) 20%, transparent), url(../../../../public/imagens/Tópico\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+      rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+    height: 600px;
+    background-position: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    padding: 20px;
+    text-wrap: wrap;
+
+    h1 {
+        font-size: 48px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    p {
+        width: 600px;
+        font-size: 20px;
+        font-weight: 100;
+    }
+}
+
+@media (max-width: 640px) {
+    .container {
+        h1 {
+            font-size: 38px;
+        }
+
+        p {
+            font-size: 15px;
+            font-weight: 100;
+            width: 70vw;
+        }
+    }
+}
+

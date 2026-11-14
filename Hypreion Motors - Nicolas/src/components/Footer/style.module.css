@@ -1,0 +1,222 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-self: flex-end;
+    height: 350px;
+    /* min-height: 350px; */
+    align-items: center;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    padding: 0 0 12px 0;
+    text-decoration: none;
+    color: white;
+    background-color: #171717;
+
+    h1 {
+        font-size: 22px;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        font-weight: 100;
+        font-size: 12px;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    p {
+        font-size: 12px;
+        font-weight: 100;
+        text-align: center;
+    }
+
+    .divisoriaFooter {
+        width: 100%;
+        border: solid 1px rgba(255, 255, 255, 0.35);
+        margin: 0;
+        margin-bottom: 26px;
+    }
+
+    hr {
+        width: 90vw;
+    }
+}
+
+
+
+.info {
+    display: flex;
+    align-items: center;
+    height: 85%;
+    width: 95%;
+    justify-content: space-around;
+}
+
+.direitos {
+    font-size: 12px;
+    display: flex;
+    width: 80%;
+    height: 22px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    cursor: default;
+}
+
+.termos {
+    display: flex;
+    gap: 15px;
+
+    p {
+        &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+            font-weight: 300;
+        }
+    }
+}
+
+.links {
+    height: 60%;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+.contato {
+    height: 60%;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-wrap: nowrap;
+
+    div {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+
+        img {
+            height: 24px;
+            width: 24px;
+        }
+    }
+}
+
+
+
+@media (max-width: 1060px) {
+
+    .links {
+        display: none;
+    }
+}
+
+@media (max-width: 950px) {
+    .horarios {
+        display: none !important;
+    }
+}
+
+@media (max-width: 800px) {
+    .direitos {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .container{
+        height: 400px;
+        padding: 0 0 46px 0;
+    }
+
+    .empresa {
+        text-align: center;
+        align-items: center;
+        align-items: center;
+    }
+
+    .contato {
+        width: 28vw;
+    }
+
+    .termos {
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 560px) {
+    .contato {
+        display: none;
+    }
+
+    .empresa {
+        width: 90% !important;
+    }
+
+    .termos {
+        padding-bottom: 20px;
+    }
+}
+
+
+
+
+.horarios {
+    flex-direction: column;
+    height: 60%;
+    width: 300px;
+    justify-content: space-around;
+    display: flex;
+
+    div {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+
+        b {
+            font-size: 12px
+        }
+
+        display: flex;
+        justify-content: space-between;
+
+        &:hover {
+            background-color: rgb(67, 67, 67);
+            font-weight: 400;
+            cursor: default;
+        }
+    }
+}
+
+.empresa {
+    display: flex;
+    flex-direction: column;
+    width: 24vw;
+    gap: 15px;
+}
+
+.redesSociais {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+    img {
+        width: 25px;
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+    }
+}
+
+.logo {
+    width: 250px;
+    align-self: center;
+}

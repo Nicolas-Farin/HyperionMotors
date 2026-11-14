@@ -1,0 +1,277 @@
+.animar {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+    transition-delay: 0.2s;
+    will-change: opacity, transform;
+}
+
+.animar.mostrar {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.container {
+    overflow: hidden;
+    background: #0b0b0b;
+    color: white;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.section {
+    display: flex;
+    height: 450px;
+    justify-content: space-between;
+    position: relative;
+    transition: 0.2s;
+    box-shadow: rgba(240, 46, 46, 0.4) 5px 5px, rgba(240, 46, 46, 0.3) 10px 10px, rgba(240, 46, 46, 0.2) 15px 15px, rgba(240, 46, 46, 0.1) 20px 20px, rgba(240, 46, 46, 0.05) 25px 25px;
+
+    &:hover {
+        transform: scale(1.03);
+    }
+}
+
+.textLeft,
+.textRight {
+    width: 50%;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textLeft h2,
+.textRight h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.textLeft h3,
+.textRight h3 {
+    font-size: 18px;
+    color: #aaa;
+    margin-bottom: 20px;
+}
+
+.textLeft p,
+.textRight p {
+    font-size: 14px;
+    color: #ccc;
+    max-width: 400px;
+    line-height: 1.6;
+}
+
+@media (max-width: 980px) {
+
+    .textLeft,
+    .textRight {
+        width: 80%;
+    }
+
+    .textLeft h2,
+    .textRight h2 {
+        font-size: 30px;
+    }
+
+    .textLeft h3,
+    .textRight h3 {
+        font-size: 16px;
+    }
+
+    .textLeft p,
+    .textRight p {
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 580px) {
+    .circle {
+        left: 80% !important;
+    }
+
+    .collumReverse {
+        flex-direction: column-reverse !important;
+    }
+
+    .imageRight {
+        clip-path: none !important;
+        width: 100vw !important;
+        height: 300px;
+    }
+
+    .imageLeft {
+        margin-top: 0px !important;
+        clip-path: none !important;
+        width: 100vw !important;
+        height: 300px !important;
+    }
+
+    .section {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .textLeft,
+    .textRight {
+        width: 100%;
+    }
+
+    .textLeft h2,
+    .textRight h2 {
+        font-size: 30px;
+    }
+
+    .textLeft h3,
+    .textRight h3 {
+        font-size: 12px;
+    }
+
+    .textLeft p,
+    .textRight p {
+        font-size: 14px;
+    }
+}
+
+
+.imageRight,
+.imageLeft {
+    width: 62.7vw;
+
+}
+
+
+
+
+@media(max-width: 1400px) {
+
+    .imageRight,
+    .imageLeft {
+        width: 63vw;
+
+    }
+}
+
+@media(max-width: 1000px) {
+
+    .imageRight,
+    .imageLeft {
+        width: 64.8vw;
+
+    }
+}
+
+
+.fakeImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: #2a2a2a;
+    object-position: 60% 30%;
+}
+
+/* CONTINUIDADE PERFEITA */
+.imageRight {
+    clip-path: polygon(18% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.imageLeft {
+    margin-top: -1px;
+    /* remove linha de separação */
+    clip-path: polygon(0 0, 82% 0, 100% 100%, 0 100%);
+}
+
+.light {
+    background: #f2f2f2;
+    color: black;
+}
+
+.light p {
+    color: #333;
+}
+
+.circle {
+    position: absolute;
+    left: 90%;
+    transform: translateY(-140px);
+    /* alinhado entre as seções */
+
+    width: 290px;
+    height: 290px;
+
+    border-radius: 50%;
+    background: #0b0b0b;
+
+    border: 3px solid #ff2d2d;
+
+    box-shadow:
+        0 0 0 8px rgba(255, 45, 45, 0.15),
+        0 0 20px rgba(255, 45, 45, 0.25);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.miniCircle {
+    width: 90%;
+    border-left: solid 1px red;
+    border-right: solid 1px rgb(239, 239, 239);
+    height: 90%;
+    border-radius: 100%;
+    animation-name: miniCircle;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 3s;
+}
+
+@keyframes miniCircle {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.numbers {
+    padding: 120px 20px;
+    text-align: center;
+}
+
+.numbers span {
+    font-size: 12px;
+    color: #888;
+    letter-spacing:3px;
+}
+
+.numbers h2 {
+    margin: 20px 0 60px;
+    font-size: 38px;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-self: center;
+    justify-self: center;
+    width: 70vw;
+    flex-wrap: wrap;
+}
+
+.grid strong {
+    font-size: 35px;
+}
+
+.red {
+    color: red;
+}
+
+.grid p {
+    font-size: 22px;
+    color: #aaa;
+}

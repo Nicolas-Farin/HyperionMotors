@@ -1,0 +1,38 @@
+[
+    {
+        "imagem": "../../../../../imagens/Noticia 1.jpg",
+        "titulo": "Parceria estratégica amplia atuação da concessionária",
+        "descricao": "A concessionária firmou um novo contrato estratégico para ampliar sua atuação e oferecer ainda mais vantagens aos clientes.",
+        "data": "10/02/2026"
+    },
+    {
+        "imagem": "../../../../../imagens/Noticia 2.webp",
+        "titulo": "Nova Ferrari de edição especial",
+        "descricao": "A Ferrari F8 Tributo Evoluzione celebra o legado da engenharia italiana com impressionantes 720 cv, transmissão refinada.",
+        "data": "28/02/2019"
+    },
+    {
+        "imagem": "../../../../../imagens/Noticia 3.jpg",
+        "titulo": "Nova linha 2026 já disponível",
+        "descricao": "A nova linha 2026 chegou com design atualizado, tecnologia avançada e maior eficiência, oferecendo mais conforto e desempenho.",
+        "data": "15/03/2026"
+    },
+    {
+        "imagem": "../../../../../imagens/Noticia 4.jpg",
+        "titulo": "Tecnologia híbrida ganha destaque no mercado automotivo",
+        "descricao": "Modelos híbridos estão conquistando espaço com menor consumo e redução de emissões, combinando desempenho e sustentabilidade.",
+        "data": "22/03/2026"
+    },
+    {
+        "imagem": "../../../../../imagens/Noticia 5.jpg",
+        "titulo": "SUVs de luxo dominam as vendas no início do ano",
+        "descricao": "O segmento de SUVs premium apresentou crescimento significativo, impulsionado pelo conforto, tecnologia embarcada e versatilidade.",
+        "data": "30/03/2026"
+    },
+    {
+        "imagem": "../../../../../imagens/Noticia 6.jpg",
+        "titulo": "Novos sistemas de segurança elevam padrão dos veículos",
+        "descricao": "Fabricantes investem em assistentes inteligentes e sistemas autônomos para aumentar a segurança e reduzir acidentes nas estradas.",
+        "data": "05/04/2026"
+    }
+]

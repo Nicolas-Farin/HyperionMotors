@@ -1,0 +1,127 @@
+*{
+      font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    margin-top: 40px;
+    padding: 20px 40px 20px 60px;
+}
+
+.titulo {
+    margin-bottom: 20px;
+    color: #111;
+}
+
+/* GRID 2x2 */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+/* CARD */
+.card {
+    background: white;
+    border-radius: 14px;
+    padding: 22px;
+
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.04),
+        0 10px 25px rgba(0, 0, 0, 0.06);
+
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow:
+        0 6px 16px rgba(0, 0, 0, 0.08),
+        0 18px 35px rgba(0, 0, 0, 0.12);
+}
+
+/* Ícone */
+.icone {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+/* Título */
+.cardTitulo {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #111;
+}
+
+/* Descrição */
+.cardDescricao {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.IMGicon{
+    filter: invert(18%) sepia(91%) saturate(5000%) hue-rotate(350deg) brightness(95%) contrast(110%);
+    padding: 6px;
+    background-color: hsla(0, 0%, 0%, 0.15);
+    border-radius: 12px;
+    height: 44px;
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+/* ========================= Responsividade ========================= */
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+.container {
+    margin-top: 40px;
+    padding: 10px 20px 20px 20px;
+}
+}
+
+@media (max-width: 550px) {
+   .grid {
+    grid-template-columns: repeat(1, 1fr);
+  } 
+}
+
+@media (max-width: 450px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+.container {
+    margin-top: 40px;
+    padding: 10px 20px 20px 20px;
+}
+
+  .titulo {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  .cardTitulo {
+    font-size: 16px;
+  }
+
+  .cardDescricao {
+    font-size: 14px;
+  }
+
+  .IMGicon {
+    width: 30px;
+  }
+}
